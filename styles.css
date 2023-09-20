@@ -15,12 +15,12 @@ li{
 	padding-left: 27px;
 	padding-right: 27px;
 	list-style: none;
+	cursor: pointer;
 }
 a{
 	text-decoration: none;
 	color: white;
 }
 li:hover{
-	cursor: pointer;
 	background-color: #b90e4d;
 }
