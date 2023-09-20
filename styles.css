@@ -1,20 +1,24 @@
 /*  your css code here. If applicable */
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(110, 7, 45);
+	color: rgb(255, 255, 255);
+}
 ul{
-	display: inline;
-	background-color: #6e072d;
+	display: flex;
 }
 li{
-	display: inline;
-	background-color: #6e072d;
-}
-a{
-	text-decoration: none;
-	color: white;
 	font-size: 18px;
 	padding-top: 18px;
 	padding-bottom: 18px;
 	padding-left: 27px;
 	padding-right: 27px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
 }
 li:hover{
 	cursor: pointer;
