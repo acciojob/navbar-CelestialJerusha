@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+ul{
+	display: inline;
+	background-color: #6e072d;
+}
+li{
+	display: inline;
+	background-color: #6e072d;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+li:hover{
+	cursor: pointer;
+	background-color: #b90e4d;
+}
